@@ -8,14 +8,14 @@ A powerful **FontForge** Python script to replace (transfer) glyphs from one fon
 - 🔢 Specify one or both of:
   - A Unicode **range** (start & end hex codes).
   - A list of **specific Unicode hex values**.
+- 📐 Auto scale size to look original.
 - 🖋️ Choose **Y-alignment** mode:
-  1. Keep source top.
+  1. Keep source top (retains source like alignment)
   2. Match destination top.
   3. Match destination bottom.
-- 📏 Copy bearings (advance width, left & right side bearings) from source glyph.
+- 〽️ Copy bearings (advance width, left & right side bearings) from source glyph.
 - 📝 Prompt for **new font name**, **author name**, and **license** text automatically.
 - 📂 Automatic detection of fonts from “Source” and “Destination” folders.
-
 ---
 
 ## 📦 Requirements
